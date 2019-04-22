@@ -1,0 +1,44 @@
+body {
+    background: #FCFBF7;
+}
+form {
+    display: flex;
+    width: 33%;
+    margin-left: 35%;
+    box-shadow: 0px 1px 8px black;
+    border: 1px solid;
+    margin-top:-35px;
+}
+
+    form input {
+        width:70%;
+    }
+
+    form button {
+        width:30%;
+        border: none;
+        padding: 10px;
+    }
+
+#messages {
+    list-style-type: none;
+    border:1px solid;
+    width:30%;
+    height:500px;
+    margin-left:35%;
+    box-shadow:0px 1px 8px black;
+}
+
+    #messages li {
+        padding: 5px 10px;
+        border-radius: 30px;
+        background: #E9D3BE;
+    }
+
+        #messages li:nth-child(odd) {
+            background: #F4F0DD;
+        }
+
+#messages {
+    margin-bottom: 40px
+}
